@@ -1,0 +1,64 @@
+.terminal {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+    display:block;
+    width:30em;
+    left:23em;
+}
+.terminal .top {
+    background: #212529;
+    color: wheat;
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+}
+.terminal .btns {
+    position: absolute;
+    top: 7px;
+    left: 5px;
+}
+.terminal .circle {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-left: 2px;
+    border-width: 1px;
+    border-style: solid;
+}
+.title{
+    text-align: center;
+}
+.red { background: #EC6A5F; border-color: #D04E42; }
+.green { background: #64CC57; border-color: #4EA73B; }
+.yellow{ background: #F5C04F; border-color: #D6A13D; }
+.clear{clear: both;}
+.terminal .body {
+    background: transparent;
+    color: #7AFB4C;
+    padding: 8px;
+    overflow: auto;
+    height: 120;
+    border-color: #212529;
+    border-style: solid;
+}
+.terminal a {
+    text-decoration: none;
+}
+.space {
+    margin: 25px;
+}
+.shadow { box-shadow: 0px 0px 10px rgba(0,0,0,.4)}
+.hidden {
+    opacity:0;
+}
+.console-container {
+    font-size:1.1em;
+    text-align:left;
+}
+.console-underscore {
+    display:inline-block;
+    position:relative;
+    top:-0.14em;
+    left:10px;
+}
