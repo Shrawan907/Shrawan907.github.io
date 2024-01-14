@@ -1,6 +1,6 @@
 consoleText('> ', 'show portfolio-menu', 'text-edit');
 async function consoleText(prefix, word, id) {
-    await new Promise(w => setTimeout(w, 2000))
+    await new Promise(w => setTimeout(w, 10000))
     document.getElementById("loader").remove()
     document.getElementById("landingPage").classList.remove("hidden")
     var visible = true;
