@@ -3,18 +3,18 @@
     border-radius: 5px 5px 0 0;
     position: relative;
     display:block;
-    width:30em;
-    left:23em;
+    width:40%;
+    left:30%;
 }
 .terminal .top {
-    background: #212529;
+    background: #CFC1B0;
     color: wheat;
     padding: 5px;
     border-radius: 5px 5px 0 0;
 }
 .terminal .btns {
     position: absolute;
-    top: 7px;
+    top: 37px;
     left: 5px;
 }
 .terminal .circle {
@@ -28,6 +28,7 @@
 }
 .title{
     text-align: center;
+    color: #212529;
 }
 .red { background: #EC6A5F; border-color: #D04E42; }
 .green { background: #64CC57; border-color: #4EA73B; }
@@ -39,7 +40,7 @@
     padding: 8px;
     overflow: auto;
     height: 120;
-    border-color: #212529;
+    border-color: #CFC1B0;
     border-style: solid;
 }
 .terminal a {
@@ -56,9 +57,13 @@
     font-size:1.1em;
     text-align:left;
 }
+.console-container span:hover {
+    color: yellowgreen;
+}
 .console-underscore {
     display:inline-block;
     position:relative;
     top:-0.14em;
     left:10px;
+    color: yellowgreen;
 }

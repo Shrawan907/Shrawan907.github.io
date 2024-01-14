@@ -10,9 +10,12 @@
 .shape-circle {
     height: 150px;
     width: 150px;
-    border-style: solid;
-    border-color: wheat;
-    background: transparent;
+    position: relative;
+    margin: 2rem auto;
+    border: 2px solid #303030;
+    background: url(../assets/img/shrawan.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
     border-radius: 50%;
   }
 

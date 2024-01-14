@@ -4,8 +4,6 @@ function consoleText(prefix, word, id) {
     var con = document.getElementById('console');
     letterCount = 1
     target = document.getElementById(id)
-    target.setAttribute('style', 'color: white')
-
     window.setInterval(async function() {
         if (letterCount > word.length) {
             await new Promise(w => setTimeout(w, 500))
@@ -14,7 +12,7 @@ function consoleText(prefix, word, id) {
             target.innerHTML = prefix + word.substring(0, letterCount) + (letterCount == word.length ? "" : "_")
             letterCount += 1
         }
-    }, 60);
+    }, 120);
 
     window.setInterval(function() {
         if (visible === true) {
