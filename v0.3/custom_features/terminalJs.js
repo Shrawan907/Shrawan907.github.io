@@ -1,6 +1,6 @@
 consoleText(['> ', '', '> '], ['echo $welcome_message', 'Welcome to my portfolio website', 'show portfolio-menu', ], ['text1', 'text2', 'text3']);
 async function consoleText(prefixes, words, id) {
-    await new Promise(w => setTimeout(w, 100))
+    await new Promise(w => setTimeout(w, 2000))
     document.getElementById("loader").remove()
     document.getElementById("landingPage").classList.remove("hidden")
     var visible = true;
