@@ -11133,6 +11133,7 @@ footer.footer {
 .experience-tool {
   margin-right: 1em; 
   margin-left: 1px;
+  width: 9rem;
 }
 .experience-tool:hover {
   background-color: #CFC1B0;
@@ -11141,4 +11142,15 @@ footer.footer {
 
 h2 {
   color: #CFC1B0;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }

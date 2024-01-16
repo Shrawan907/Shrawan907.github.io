@@ -20,18 +20,6 @@
         <link href="v0.3/custom_features/shape.css" rel="stylesheet" />
         <link href="v0.3/custom_features/pacman.css" rel="stylesheet" />
     </head>
-    <style>
-        /* Hide scrollbar for Chrome, Safari and Opera */
-body::-webkit-scrollbar {
-  display: none;
-}
-
-/* Hide scrollbar for IE, Edge and Firefox */
-body {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
-    </style>
     <body id="page-top">
 
         <div class="loaders" id="loader">
@@ -98,9 +86,9 @@ body {
                     </div>
                     <div class="body">
                         <div class='console-container'>
-                            <span id='text2' style="color: yellowgreen" >> echo $welcome_message</span><br/>
-                            <span id='text2' style="color: white;" >Welcome to my portfolio website</span><br/>
-                            <span id='text-edit' style="color: yellowgreen;">> </span><br/>
+                            <span id='text1' style="color: yellowgreen" >> echo $welcome_message</span><br/>
+                            <span id='text2' style="color: white;" ></span><br/>
+                            <span id='text3' style="color: yellowgreen;"></span><br/>
                             <div id="menu" class="hidden">
                                 <a href="#about" style="color: white;"><span id='text2'>* About  &nbsp;&nbsp;</span></a>
                                 <a href="#academics" style="color: white;"><span id='text3'>* Academics  &nbsp;&nbsp;</span></a>
@@ -137,27 +125,31 @@ body {
                 </div>
             </div>
         </section>
-        
+        <!-- Education -->
         <section class="content-section text-white text-center" id="academics" style="background-color: #303030">
             <div class="container px-4 px-lg-5">
                 <div class="content-section-heading">
                     <h2 class="mb-5">Academics</h2>
                 </div>
-                <div class="row gx-4 gx-lg-5" style="padding-left: 20em;">
-                    <hr style="width: 70%; margin-top: 1em;" />
-                    <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 text-secondary">
+                <div class="row gx-3 gx-lg-5" style="padding-left: 20em;">
+                    <hr style="width: 75%; margin-top: 1em;" />
+                </div>
+                <div class="row gx-3 gx-lg-5" style="padding-left: 20em;">
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 text-secondary">
                         <h4><strong>College</strong></h4>
                     </div>
-                    <div class="col-lg-6 col-md-6 mb-5 mb-lg-0" style="text-align: left;">
+                    <div class="col-lg-7 col-md-6 mb-5 mb-lg-0" style="text-align: left;">
                         <h4><strong>Motilal Nehru National Institute of Technology</strong></h4>
                         <p class="text-faded mb-0">Computer Science and Engineering (B. Tech.)</p>
                         <p class="text-faded mb-0">2018 - 2022</p>
                     </div>
-                    <hr style="width: 70%; margin-top: 1em;" />
-                    <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 text-secondary">
+                    <hr style="width: 75%; margin-top: 1em;" />
+                </div>
+                <div class="row gx-4 gx-lg-5" style="padding-left: 20em;">
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 text-secondary">
                         <h4><strong>School</strong></h4>
                     </div>
-                    <div class="col-lg-6 col-md-6 mb-5 mb-lg-0" style="text-align: left;">
+                    <div class="col-lg-7 col-md-6 mb-5 mb-lg-0" style="text-align: left;">
                         <h4><strong>Central Academy School, Bhilwara</strong></h4>
                         <p class="text-faded mb-0">Secondary Education</p>
                         <p class="text-faded mb-0">2015 - 2017</p><br/>
@@ -167,10 +159,13 @@ body {
                         <p class="text-faded mb-0">2013 - 2015</p><br/>
                     </div>
                 </div>
+                <div class="row gx-3 gx-lg-5" style="padding-left: 20em;">
+                    <hr style="width: 75%; margin-top: 1em;" />
+                </div>
 
             </div>
         </section>
-        <!-- Services-->
+        <!-- Skilss-->
         <section class="content-section bg-primary text-white text-center" id="skills">
             <div class="container px-4 px-lg-5">
                 <div class="content-section-heading">
@@ -207,7 +202,7 @@ body {
                 </div>
             </div>
         </section>
-        <!-- Portfolio-->
+        <!-- Experience-->
         <section class="content-section text-secondary" id="experience"  style="background-color: #303030">
             <div class="container px-4 px-lg-5">
                 <div class="content-section-heading text-center">
@@ -215,23 +210,36 @@ body {
                 </div>
                 <div>
                     <div class="container px-4 px-lg-5 text-center">
-                        <h3 class="mb-1">Airtel</h3>
+                        <h3 class="mb-1">AIRTEL</h3>
                         <h5 class="mb-1">Software Engineer</h5>
                         <p class="text-faded">July 2022 - Present</p>
                     </div>
-                    <!-- <div class="row gx-4 gx-lg-5 justify-content-center">
-                        <div class="col-1 text-center border experience-tool">abc</div>
-                        <div class="col-1 text-center border experience-tool">abc</div>
-                        <div class="col-1 text-center border experience-tool">abc</div>
-                        <div class="col-1 text-center border experience-tool">abc</div>
-                        <div class="col-1 text-center border experience-tool">abc</div>
-                        <div class="col-1 text-center border experience-tool">abc</div>
-                    </div> -->
 
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-1 text-center border experience-tool">Spring-boot</div>
+                        <div class="col-1 text-center border experience-tool">Java</div>
+                        <div class="col-1 text-center border experience-tool">MongoDB</div>
+                        <div class="col-1 text-center border experience-tool">RabbitMq</div>
+                        <div class="col-1 text-center border experience-tool">AWS</div>
+                        <div class="col-1 text-center border experience-tool">ZSH</div>
+                    </div>
+                    <br/>
                     <div class="row gx-4 gx-lg-5 justify-content-center">
                         <div class="col-lg-9">
                             <p class="lead mb-0">
-                                > &nbsp; To Be Update Soon...
+                                > &nbsp; Worked with Airtel B2B team. Handled start-to-end journey.
+                            </p>
+                            <p class="lead mb-0">
+                                > &nbsp; Our team accepts orders of different Airtel products to set up links at different locations, performing feasibility of these locations
+                            </p>
+                            <p class="lead mb-0">
+                                > &nbsp; Worked with the team to provide a platform to Enterprise customer and finally placing the order in automata machine. Handled state transitions automata.
+                            </p>
+                            <p class="lead mb-0">
+                                > &nbsp; Designed multiple REST APIs between micro-services, RabbitMq message handling, MongoDB DataBase Connection, stored dynamic flags of application in Db, excel data handling, and Shedlock implementation.
+                            </p>
+                            <p class="lead mb-0">
+                                > &nbsp; Worked with MongoDB database, data reading and validating for upload and download excel data sheets, java scripts to update database, Communicating micro-services using messaging queue like RabbitMq, Defining Scheduler, Honcho (Automata Machine), Team-Discussions, Confluence writing.
                             </p>
                         </div>
                     </div>
@@ -239,30 +247,36 @@ body {
                 <hr style="height: 2em;" ></hr>
                 <div>
                     <div class="container px-4 px-lg-5 text-center">
-                        <h3 class="mb-1">Amazon - India</h3>
+                        <h3 class="mb-1">AMAZON - INDIA</h3>
                         <h5 class="mb-1">Software Intern</h5>
                         <p class="text-faded">May 2021 - July 2021</p>
                     </div>
-                    <!-- <div class="row gx-4 gx-lg-5 justify-content-center">
-                        <div class="col-1 text-center border experience-tool">abc</div>
-                        <div class="col-1 text-center border experience-tool">abc</div>
-                        <div class="col-1 text-center border experience-tool">abc</div>
-                        <div class="col-1 text-center border experience-tool">abc</div>
-                        <div class="col-1 text-center border experience-tool">abc</div>
-                        <div class="col-1 text-center border experience-tool">abc</div>
-                    </div> -->
 
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-1 text-center border experience-tool">Hibernate</div>
+                        <div class="col-1 text-center border experience-tool">Java</div>
+                        <div class="col-1 text-center border experience-tool">React Js</div>
+                        <div class="col-1 text-center border experience-tool">Backend</div>
+                        <div class="col-1 text-center border experience-tool">+ Frontend</div>
+                    </div>
+                <br/>
                     <div class="row gx-4 gx-lg-5 justify-content-center">
                         <div class="col-lg-9">
                             <p class="lead mb-0">
-                                > &nbsp; To Be Update Soon...
+                                > &nbsp; Worked with Amazon Business Tech Team on creating self-service tooling in the Amazon website for Amazon Business Customers.
+                            </p>
+                            <p class="lead mb-0">
+                                > &nbsp; Created Reply action for this service : Designed UI, and backend classes, and built contracts (slapshots- amazon dev tool) for data proxy layer changes
+                            </p>
+                            <p class="lead mb-0">
+                                > &nbsp; Manual testing, and white box and black box testing of the development.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
+        <!-- Projects -->
         <section class="content-section" id="projects">
             <div class="container px-4 px-lg-5">
                 <div class="content-section-heading text-center">
@@ -274,7 +288,7 @@ body {
                             <div class="caption">
                                 <div class="caption-content">
                                     <div class="h2">Tailor's Book | (Team Project)</div>
-                                    <p class="mb-0">Tailor's shop management app. Users can keep track of their orders with given deadlines, assign work to their team, and more.</p>
+                                    <p class="mb-0">Tailors Service : This is a web app for Tailor shop management. It saves customer info and billing details. It manages the cloth preparation status. Add new orders, show them according to the order deadline, and generate invoices for customers. Tech: - ReactJs, Python, Django, PostgreSQL</p>
                                 </div>
                             </div>
                             <img class="img-fluid" src="v0.3/assets/img/tailor.png" alt="..." />
@@ -285,7 +299,8 @@ body {
                             <div class="caption">
                                 <div class="caption-content">
                                     <div class="h2">StrangeFlix | netflix clone (Team Project)</div>
-                                    <p class="mb-0">It is a fun project developed by two developers 😉. It is like a Netflix clone. Designed on Django.</p>
+                                    <p class="mb-0">StrangeFlix : This is a team project. It is a Netflix clone. I designed the UI and added subscription functionality. Tech: Python, Django for frontend (using Django template) and backend, used Amazon S3 bucket to store video files.
+                                    </p>
                                 </div>
                             </div>
                             <img class="img-fluid" src="v0.3/assets/img/strangeFlix.png" alt="..." />
@@ -296,7 +311,8 @@ body {
                             <div class="caption">
                                 <div class="caption-content">
                                     <div class="h2">Djecommerce | learning project (Team Project)</div>
-                                    <p class="mb-0">It is a Django project. This website is like any general e-commerce website. It saves user's data like users' carts info, etc. Users can select items and can update their cart then proceed for checkout and more.</p>
+                                    <p class="mb-0">Dje-Ecommerce : This is like any e-commerce website. We can add items, and define their prices, and offers. Users can select and save their orders in the cart, edit the cart, apply discount codes, place orders, and save card info. Tech Used: Python, and Django are used for both frontend and backend.
+                                        .</p>
                                 </div>
                             </div>
                             <img class="img-fluid" src="v0.3/assets/img//dje-screen.png" alt="..." />
@@ -328,13 +344,13 @@ body {
             </div>
         </section>
         
-        <!-- Call to Action-->
+        <!-- Contributions-->
         <section class="content-section bg-primary text-white" id="contributions">
             <div class="container px-4 px-lg-5 text-center">
                 <div class="content-section-heading text-center">
                     <h2 class="mb-5">Contributions</h2>
                 </div>
-                <h2 class="mb-4">The buttons below are impossible to resist...</h2>
+                <!-- <h2 class="mb-4">The buttons below are impossible to resist...</h2> -->
                 <a class="btn btn-xl btn-light me-4 disabled" href="" >Coming Soon</a>
                 <a class="btn btn-xl btn-dark  disabled" href="">Coming Soon</a>
             </div>
