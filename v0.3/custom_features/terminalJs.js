@@ -24,7 +24,7 @@ async function consoleText(prefixes, words, id) {
             target.innerHTML = prefixes[index] + words[index].substring(0, letterCount) + ((index != 1 && letterCount < words[index].length) ? "_" : "")
             letterCount += 1
         }
-    }, 120);
+    }, 80);
 
     window.setInterval(function() {
         if (visible === true) {
