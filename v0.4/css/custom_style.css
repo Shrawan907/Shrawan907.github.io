@@ -1,0 +1,132 @@
+.pad {
+    margin-bottom: -1px;
+    font-size: 1vm;
+}
+.point {
+    color: #EFB137;
+}
+.hColor:hover {
+    color: #EFB137;
+}
+
+
+#skills .skill-cards-container {
+    padding: 10px 0px;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 80px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  
+  #skills .skill-cards-container {
+    padding: 10px 0px;
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  #skills .skill-cards-container {
+    padding: 10px 0px;
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+#skills .container .div-card {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+  }
+
+  #skills .container .div-card-item {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    top: 50%;
+    left: 50%;
+    background-position: center;
+    transform: translateX(-50%) translateY(-50%);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  #skills .container .div-card span {
+    position: relative;
+    display: table;
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center !important;
+  }
+
+
+
+/*Icons - Programming Languages & Frameworks */
+
+
+#skills .container .div-card .spring-boot {
+    background-image: url("../images/icon/spring-boot.png");
+  }
+  #skills .container .div-card .postgresql {
+    background-image: url("../images/icon/postgresql.png");
+  }
+  #skills .container .div-card .rabbitmq {
+    background-image: url("../images/icon/rabbitmq.png");
+  }
+  
+  #skills .container .div-card .java {
+    background-image: url("../images/icon/java.png");
+  }
+
+
+
+
+
+#skills .container .div-card .mongodb {
+    background-image: url("../images/icon/mongodb.png");
+  }
+  #skills .container .div-card .node-js {
+    background-image: url("../images/icon/node-js.png");
+  }
+  #skills .container .div-card .express-js {
+    background-image: url("../images/icon/express-js.png");
+  }
+  #skills .container .div-card .html {
+    background-image: url("../images/icon/html-5.png");
+  }
+  #skills .container .div-card .js {
+    background-image: url("../images/icon/js.png");
+  }
+  #skills .container .div-card .python {
+    background-image: url("../images/icon/python.png");
+  }
+  #skills .container .div-card .react-js {
+    background-image: url("../images/icon/react-js.png");
+  }
+  
+  /*Icons - Tools & Other Skills */
+  
+  #skills .container .div-card .git {
+    background-image: url("../images/icon/git.png");
+  }
+  #skills .container .div-card .ux-ui {
+    background-image: url("../images/icon/ui-ux.png");
+  }
+  #skills .container .div-card .docker {
+    background-image: url("../images/icon/docker.png");
+  }
+  #skills .container .div-card .devops {
+    background-image: url("../images/icon/devops.png");
+  }
