@@ -35,14 +35,14 @@
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-	          <li class="nav-item"><a href="#edu-section" class="nav-link"><span>Education</span></a></li>
-	          <li class="nav-item"><a href="#services-section" class="nav-link"><span>Work</span></a></li>
-	          <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
-	          <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+	          <li class="nav-item"><a href="#home-section" class="nav-link" onclick="doColacpse();"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link" onclick="doColacpse();"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#edu-section" class="nav-link" onclick="doColacpse();"><span>Education</span></a></li>
+	          <li class="nav-item"><a href="#services-section" class="nav-link" onclick="doColacpse();"><span>Work</span></a></li>
+	          <li class="nav-item"><a href="#skills-section" class="nav-link" onclick="doColacpse();"><span>Skills</span></a></li>
+	          <li class="nav-item"><a href="#projects-section" class="nav-link" onclick="doColacpse();"><span>Projects</span></a></li>
 	          <!-- <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li> -->
-	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link" onclick="doColacpse();"><span>Contact</span></a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -200,11 +200,18 @@
 							</div>
 						</div>
 						<br/>
-						<p class="pad"> <span class="point"> > </span> &nbsp; Worked with Airtel B2B team. Handled start-to-end journey. </p>
-						<p class="pad"> <span class="point"> > </span> &nbsp; Our team accepts orders of different Airtel products to set up links at different locations, performing feasibility of these locations </p>
-						<p class="pad"> <span class="point"> > </span> &nbsp; Worked with the team to provide a platform to Enterprise customer and finally placing the order in automata machine. Handled state transitions automata. </p>
-						<p class="pad"> <span class="point"> > </span> &nbsp; Designed multiple REST APIs between micro-services, RabbitMq message handling, MongoDB DataBase Connection, stored dynamic flags of application in Db, excel data handling, and Shedlock implementation. </p>
-						<p class="pad"> <span class="point"> > </span> &nbsp; Worked with MongoDB database, data reading and validating for upload and download excel data sheets, java scripts to update database, Communicating micro-services using messaging queue like RabbitMq, Defining Scheduler, Honcho (Automata Machine), Team-Discussions, Confluence writing. </p>
+						<p class="pad"> <span class="point"> > </span> &nbsp; Enhanced end-to-end journey for multiple Airtel Connectivity products, through development on more than 15
+							microservices. </p>
+						<p class="pad"> <span class="point"> > </span> &nbsp; Upto 70%, performance improvement of BA account APIs, with several other APIs by developing concurrent
+							execution of independent tasks and introducing caches for duplicate downstream calls. </p>
+						<p class="pad"> <span class="point"> > </span> &nbsp; Took ownership of building lead utility feature, hence reducing SREs‘ lead management time. </p>
+						<p class="pad"> <span class="point"> > </span> &nbsp; Transferred Excel validation code to the database, which also accelerated the addition of new validation. </p>
+						<p class="pad"> <span class="point"> > </span> &nbsp; Worked on event-driven architecture, creating new automata machines for delivering cut-over features of connectivity products. </p>
+						
+						<p class="pad"> <span class="point"> > </span> &nbsp; Successfully resolved production issues to ensure smooth operations and customer satisfaction. </p>
+						<p class="pad"> <span class="point"> > </span> &nbsp; Learnings: Experience in Spring-boot java, MongoDB database management, data reads and validation on excel data
+							sheets, communicating micro-services using Rest APIs and RabbitMq messaging queue, Defining Scheduler,
+							Understanding Automata (event-driven-architecture), Debugging code, Team-Discussions and task groomings. </p>
     				</div>
     			</div>
     		</div>
@@ -226,8 +233,10 @@
 						</div>
 						<br/>
 						<p class="pad"> <span class="point"> > </span> &nbsp; Worked with Amazon Business Tech Team on creating self-service tooling in the Amazon website for Amazon Business Customers.  </p>
-						<p class="pad"> <span class="point"> > </span> &nbsp; Created Reply action for this service : Designed UI, and backend classes, and built contracts (slapshots- amazon dev tool) for data proxy layer changes  </p>
-						<p class="pad"> <span class="point"> > </span> &nbsp; Manual testing, and white box and black box testing of the development.  </p>
+						<p class="pad"> <span class="point"> > </span> &nbsp; Implemented a customer-replying feature for pending requests raised by customers.  </p>
+						<p class="pad"> <span class="point"> > </span> &nbsp; Developed both user interface (UI) and backend functionality. Also wrote Unit Tests (UT) to ensure reliability and
+							functionality of the implemented feature.  </p>
+						<p class="pad"> <span class="point"> > </span> &nbsp; Tech. and Language Java, Spring-boot, Git  </p>
 					</div>
     			</div>
     		</div>
@@ -858,6 +867,12 @@
   <script src="v0.4/js/scrollax.min.js"></script>
   
   <script src="v0.4/js/main.js"></script>
+
+  <script>
+	function doColacpse() {
+		$("#ftco-nav").toggleClass("show")
+	}  
+  </script>
     
   </body>
 </html>
